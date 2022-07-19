@@ -1,0 +1,36 @@
+.hero-img {
+  background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/014/912/d540e804-ebba-4f7f-9fdf-a05ce5469ad0.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100VH;
+}
+
+.scoreboard {
+  height: 70VH;
+  width: 60VW;
+  background-color: #0f208dc6;
+  border: solid 1px white ;
+}
+
+.bg-see {
+  background-color: #0f208dc6;
+}
+
+.scorebox {
+  height: 40VH;
+  width: 25VW;
+  background-color: #2f439da8;
+  border: solid 1px white;
+}
+
+.text-large {
+  font-size: 7VH;
+}
+
+.text-largest {
+  font-size: 30VH;
+}
+
+.glow {
+  text-shadow: 0 0 5px #fff, 0 0 1px #fff, 0 0 5px rgba(0, 0, 255, 0.57), 0 0 5px rgba(0, 0, 255, 0.57), 0 0 5px rgba(0, 0, 255, 0.57), 0 0 5px rgba(0, 0, 255, 0.57), 0 0 5px rgba(0, 0, 255, 0.57);
+}
