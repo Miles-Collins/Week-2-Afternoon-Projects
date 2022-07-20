@@ -1,0 +1,15 @@
+body {
+  background-color: whitesmoke;
+}
+
+.vendingMachine {
+  height: 50Vh;
+  width: 30VW;
+  background-color: grey;
+}
+
+.glass {
+  height: 40VH;
+  width: 25vh;
+  background-color: rgba(255, 255, 255, 0.733);
+}

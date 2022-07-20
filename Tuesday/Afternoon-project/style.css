@@ -1,0 +1,30 @@
+
+
+.hero-img {
+  height: 100VH;
+  background-image: url(https://images.unsplash.com/photo-1620388640785-892616248ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
+  background-position: center;
+  background-size: cover;
+}
+
+.black-box {
+  height: 80%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.824);
+  border: 2px solid rgb(255, 255, 255);
+  outline: 10px solid rgba(0, 0, 0, 0.824);
+}
+
+.hoverable:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.hoverable2:hover {
+  cursor: pointer;
+}
+
+.green {
+  color: rgba(33, 241, 33, 0.904);
+}
