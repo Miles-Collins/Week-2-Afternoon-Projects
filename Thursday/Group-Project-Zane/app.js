@@ -27,7 +27,7 @@ function drawHero(){
  
       <div styles=height"10VH" class="col-10 offset-1 progress p-0">
           <div class="progress-bar bg-success" role="progressbar" aria-label="Danger example" style="width: ${hero.health}%"
-            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">${hero.health}%</div>
+            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Kirby ${hero.health}/100</div>
       </div>
      `
   let heroElm = document.getElementById('images')
@@ -49,7 +49,7 @@ function drawBoss(){
       </div>
       <div class="justify-contents-center col-10 offset-1 progress p-0">
       <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: ${boss.Ex.health}%"
-        aria-valuenow="100" aria-valuemin="0" aria-valuemax="${boss.Ex.maxHealth}">${boss.Ex.health}/${boss.Ex.maxHealth}</div>
+        aria-valuenow="100" aria-valuemin="0" aria-valuemax="${boss.Ex.maxHealth}">(Handsome) Squidward ${boss.Ex.health}/${boss.Ex.maxHealth}</div>
       </div>  
     `
   let raptorElm = document.getElementById('boss')
