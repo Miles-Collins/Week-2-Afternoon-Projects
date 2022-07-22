@@ -1,0 +1,12 @@
+body {
+  background-image: url(MKReal.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100VH;
+}
+
+pink {
+  background-color: pink !important;
+}
+
+absolute
