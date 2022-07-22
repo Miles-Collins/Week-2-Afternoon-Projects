@@ -49,7 +49,7 @@ function drawBoss(){
       </div>
       <div class="justify-contents-center col-10 offset-1 progress p-0">
       <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: ${boss.Ex.health}%"
-        aria-valuenow="100" aria-valuemin="0" aria-valuemax="${boss.Ex.maxHealth}">${boss.Ex.health}%</div>
+        aria-valuenow="100" aria-valuemin="0" aria-valuemax="${boss.Ex.maxHealth}">${boss.Ex.health}/${boss.Ex.maxHealth}</div>
       </div>  
     `
   let raptorElm = document.getElementById('boss')
